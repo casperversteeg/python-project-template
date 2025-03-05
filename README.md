@@ -63,7 +63,7 @@ from package_name import <submodule> as <namespace>
 Optional packages include:
 
 - Documentation[^1]: `doc`
-- Your optional package[^1]: `optional_package_name`
+- Your optional package[^2]: `optional_package_name`
 
 Install with
 
@@ -82,3 +82,4 @@ pip install -e .[doc]
 Then either use the `Makefile` or `make.bat` to compile the documentation in whatever format you want.
 
 [^1]: Installs packages necessary to make documentation with Sphinx.
+[^2]: Installs [your_optional_package](#)
