@@ -1,0 +1,59 @@
+{
+    "python.terminal.executeInFileDir": true,
+    "[python]": {
+        // "editor.formatOnType": true,
+        "editor.defaultFormatter": null, //"ms-python.black-formatter"
+        "editor.formatOnSave": true
+    },
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.rulers": [
+        {
+            "column": 88,
+            "color": "#00000050"
+        },
+        100, // <- a ruler in the default color or as customized (with "editorRuler.foreground") at column 100
+        // {
+        //     "column": 120,
+        //     "color": "#ff0000"
+        // },
+    ],
+    "black-formatter.args": [
+        "--line-length=100"
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "evenBetterToml.formatter.allowedBlankLines": 4,
+    "evenBetterToml.formatter.indentTables": true,
+    "evenBetterToml.formatter.indentEntries": true,
+    "evenBetterToml.formatter.columnWidth": 180,
+    "workbench.settings.applyToAllProfiles": [
+        "evenBetterToml.formatter.columnWidth",
+        "evenBetterToml.formatter.allowedBlankLines",
+        "evenBetterToml.formatter.arrayAutoCollapse"
+    ],
+    "evenBetterToml.formatter.arrayAutoCollapse": true,
+    "evenBetterToml.formatter.arrayAutoExpand": true,
+    "evenBetterToml.formatter.compactArrays": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "notebook.lineNumbers": "on",
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "jupyter.askForKernelRestart": false,
+    "files.exclude": {
+        "**/.git": false,
+        "**/__pycache__": true
+    },
+}

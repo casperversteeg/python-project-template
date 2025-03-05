@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            // "justMyCode": false,
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${fileDirname}",
+            "purpose": [
+                "debug-in-terminal"
+            ]
+        },
+    ],
+    "version": "2.0.0"
+}

@@ -1,0 +1,17 @@
+================================
+package_name 0.0.1 Release Notes
+================================
+
+.. contents::
+
+Authors
+=======
+* Casper Versteeg
+
+Features implemented
+--------------------
+
+
+
+Future Work
+-----------
